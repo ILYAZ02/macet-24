@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.str {
+    background-color: #ff7300a4;
+    height: 102vh;
+    width: 200vh;
+}
+
+
+.menu :nth-child(2) {
+    margin-left: 48rem;
+
+
+}
+.sur{
+    position: absolute;
+    left: 10rem;
+    top: 32px;
+}
+.poisk{
+    position: absolute;
+    right: 8rem;
+    top: 44px;
+}
+.menu ul {
+    height: 82px;
+    width: 1920px;
+    background-color: #01847F;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #021718;
+}
+
+.zagol {
+    display: block;
+    justify-content: flex-start;
+    margin-top: 250px;
+    margin-left: 150px;
+
+}
+
+.zagol h1 {
+    font-size: 84px;
+    color: #021718;
+}
+
+.zagol p {
+    font-size: 34px;
+}
+
+
+.zagol button{
+   padding: 10px 25px;
+   border: none;
+    border-radius: 8px;
+    background-color: #01847F;
+    color: #FFFFFA;
+    font-size: 24px;
+    
+}
+.zagol button:hover{
+    background-color: rgb(233, 8, 8);
+    transition: .7s;
+}
+.img {
+    position: absolute;
+    left: 860px;
+    top: 98px;
+
+}
+
+.gren {
+    position: absolute;
+    left: 1250px;
+    top: 245px;
+
+}
+
+.girl {
+    position: absolute;
+    left: 1230px;
+    top: 242px;
+}
+
+.insta {
+    display: flex;
+    padding-top: 12rem;
+    gap: 3rem;
+    padding-left: 9rem;
+    cursor: pointer;
+
+}
+.insta:hover{
+    transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
